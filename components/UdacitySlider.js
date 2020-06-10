@@ -15,7 +15,7 @@ export default function UdacitySlider ({value, onChange, unit, max, step}){
             />
             <View style={styles.metricCounter}>
                 <Text style={{fontSize: 24, textAlign: "center"}}>{value}</Text>
-                <Text style={{fontSize: 18, textAlign: gray}}>{unit}</Text>
+                <Text style={{fontSize: 18, color: gray}}>{unit}</Text>
             </View>
         </View>
     )
